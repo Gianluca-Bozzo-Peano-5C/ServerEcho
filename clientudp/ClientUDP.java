@@ -19,7 +19,7 @@ public class ClientUDP {
      */
     public static void main(String[] args) throws SocketException, IOException {
         // TODO code application logic here
-        String IP_address;
+         String IP_address;
         int UDP_port;
         String request,answer;
         UDPClientSocket client;
@@ -32,6 +32,5 @@ public class ClientUDP {
         answer = client.sendAndRecive(request, IP_address, UDP_port);
         System.out.println("ho ricevuto in risposta: " + answer);
         client.close_socket();
-    }
-    
+    }   
 }

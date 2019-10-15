@@ -18,8 +18,8 @@ import java.net.UnknownHostException;
  * @author pc15
  */
 public class UDPClientSocket {
-
-    private DatagramSocket socket;
+    
+     private DatagramSocket socket;
 
     public UDPClientSocket() throws SocketException {
         socket = new DatagramSocket();
@@ -60,5 +60,5 @@ public class UDPClientSocket {
         }
         return answer;
     }
-
+    
 }
