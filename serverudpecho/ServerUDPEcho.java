@@ -19,7 +19,8 @@ public class ServerUDPEcho {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        try {
+        // TODO code application logic here
+         try {
             // TODO code application logic here
             UDPEcho echoServer= new UDPEcho(7);
             echoServer.run();

@@ -17,8 +17,7 @@ import java.util.logging.Logger;
  * @author pc15
  */
 public class UDPEcho {
-
-    private DatagramSocket socket;
+     private DatagramSocket socket;
 
     public UDPEcho(int port) throws SocketException {
         socket = new DatagramSocket(port);
